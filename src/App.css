@@ -18,14 +18,14 @@ body {
 }
 
 .App-title {
-  margin-top: 35vh;
+  margin-top: 30vh;
   font-size: 3.5em;
   font-weight: 800;
 }
 
 .glass {
   position: absolute;
-  top: 25vh;
+  top: 2vh;
   left: 50%;
   transform: translate(-50%, -50%);
   height: 100px;

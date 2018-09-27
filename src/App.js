@@ -12,7 +12,7 @@ class App extends Component {
 
           <h1 className="App-title">Welcome to Afyc</h1>
 
-          <div className="badges">            
+          <div className="badges">           
             <a style={{marginRight: '20px'}} href="#googleBadge">
               <img style={{paddingTop: '9px'}} src={googleBadge} alt="googleBadge"/>
             </a>
