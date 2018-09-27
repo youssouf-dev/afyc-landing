@@ -1,28 +1,78 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.App {
+  text-align: center;
+  background: url('./assets/images/cloudy-foggy-forest-8781.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  background-color: rgba(34, 34, 34, .4);
+  height: 100%;
+  padding: 0.1px;
   color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+  margin-top: 35vh;
+  font-size: 3.5em;
+  font-weight: 800;
 }
 
-.App-intro {
-  font-size: large;
+.glass {
+  position: absolute;
+  /* top: 15%; */
+  top: 25vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100px;
+  /* margin: 50px; */
+  border-radius: 0%;
+  background: url('./assets/images/logo-1024x1024.png');
+  background-size: cover;
+  border: 0px solid #fff;
+  overflow: hidden;
+  animation: animate linear 8s infinite;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@keyframes animate {
+  0%{
+    transform: translate(-50%, -50%) skewY(5deg);
+  }
+  50%{
+    transform: translate(-50%, -50%) skewY(-5deg);
+  }
+  100%{
+    transform: translate(-50%, -50%) skewY(5deg);
+  }
+}
+
+.space-bar {
+  width: 100%;
+  height: 50px;
+}
+.small-space-bar {
+  width: 100%;
+  height: 20px;
+}
+.smallest-space-bar {
+  width: 100%;
+  height: 5px;
+}
+
+.badges {
+  margin-top: 10vh;
+}
+
+.badges img {
+  width: 200px;
+}
+
+.badgesImg {
+  padding: 0px 20px 0px 20px;
 }

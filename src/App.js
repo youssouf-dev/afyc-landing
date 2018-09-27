@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import appleBadge from './assets/images/badge-app-store.png';
+import googleBadge from './assets/images/badge-google-play.png';
 import './App.css';
 
 class App extends Component {
@@ -7,12 +8,21 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <div className="glass"></div>
+
+          <h1 className="App-title">Welcome to Afyc</h1>
+
+          <div className="badges">
+            <a className="badgesImg" href="#appleBadge">
+              <img src={appleBadge} alt="appleBadge"/>
+            </a>
+            
+            <a className="badgesImg" href="#googleBadge">
+              <img src={googleBadge} alt="googleBadge"/>
+            </a>
+          </div>
+          
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
       </div>
     );
   }
