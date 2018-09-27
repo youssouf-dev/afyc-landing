@@ -25,13 +25,11 @@ body {
 
 .glass {
   position: absolute;
-  /* top: 15%; */
   top: 25vh;
   left: 50%;
   transform: translate(-50%, -50%);
   height: 100px;
   width: 100px;
-  /* margin: 50px; */
   border-radius: 0%;
   background: url('./assets/images/logo-1024x1024.png');
   background-size: cover;
@@ -52,27 +50,10 @@ body {
   }
 }
 
-.space-bar {
-  width: 100%;
-  height: 50px;
-}
-.small-space-bar {
-  width: 100%;
-  height: 20px;
-}
-.smallest-space-bar {
-  width: 100%;
-  height: 5px;
-}
-
 .badges {
   margin-top: 10vh;
 }
 
 .badges img {
   width: 200px;
-}
-
-.badgesImg {
-  /* padding: 0px 20px 0px 20px; */
 }

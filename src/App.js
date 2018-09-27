@@ -13,13 +13,11 @@ class App extends Component {
           <h1 className="App-title">Welcome to Afyc</h1>
 
           <div className="badges">            
-            <a className="badgesImg" href="#googleBadge">
-              <img src={googleBadge} alt="googleBadge"/>
+            <a style={{marginRight: '20px'}} href="#googleBadge">
+              <img style={{paddingTop: '9px'}} src={googleBadge} alt="googleBadge"/>
             </a>
 
-            <div className="smallest-space-bar"></div>
-
-            <a className="badgesImg" href="#appleBadge">
+            <a href="#appleBadge">
               <img src={appleBadge} alt="appleBadge"/>
             </a>
           </div>
